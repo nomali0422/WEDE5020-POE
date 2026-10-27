@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - NEXT LEVEL Game Quest</title>
+  <meta name="description" content="Contact NEXT LEVEL Game Quest team in Soweto directly." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Header with logo replaced by text for better accessibility -->
+    <header><img src="images/gaming-logo.jpg" alt="NEXT LEVEL Game Quest logo"></header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+        <a href="user-personas.html">User Personas</a>
+    </nav>
+    <main>
+        <!-- Main content for the Contact page -->
+        <h1>Contact Us</h1>
+        <div class="banner">
+            <div class="banner-text" style="flex:1;">
+                <h2>Visit Us</h2>
+                <p><b>Address:</b> 123 Vilakazi Street, Soweto</p>
+                <p><b>Phone:</b> 011 555 1234</p>
+                <p><b>Hours:</b> Mon-Sun: 10am - 10pm</p>
+                <p><b>Email:</b> info@nextlevelgamequest.co.za</p>
+            </div>
+            <!-- General Contact Form (Handled entirely on-page via script.js) -->
+            <form id="contact-form" style="flex:1;">
+                <h2>Send Message</h2>
+                <label for="contact-name">Full Name</label>
+                <input type="text" id="contact-name" style="width:100%; padding:8px; margin:5px 0 15px;" required>
+
+                <label for="contact-email">Email Address</label>
+                <input type="email" id="contact-email" style="width:100%; padding:8px; margin:5px 0 15px;" required>
+
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" rows="4" style="width:100%; padding:8px; margin:5px 0 15px;" required></textarea>
+
+                <button type="submit" class="btn" style="width:100%; border:none; cursor:pointer;">SEND MESSAGE</button>
+            </form>
+        </div>
+    </main>
+    <footer><p>© 2026 NEXT LEVEL Game Quest</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>

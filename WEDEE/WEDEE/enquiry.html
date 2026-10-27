@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Service Enquiry - NEXT LEVEL Game Quest</title>
+  <meta name="description" content="Submit service enquiries and check cost estimates for VR and party packages." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header><img src="images/gaming-logo.jpg" alt="NEXT LEVEL Game Quest logo"></header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+        <a href="user-personas.html">User Personas</a>
+    </nav>
+    <main>
+        <h1>Service & Booking Enquiry</h1>
+        <div class="banner">
+            <div class="banner-text" style="flex:1;">
+                <h2>Get Pricing & Availability</h2>
+                <p>Fill out the form to enquire about gaming sessions, birthday availability, sponsorships, or volunteering.</p>
+                <div id="enquiry-response" style="display:none;"></div>
+            </div>
+
+            <!-- Enquiry Form -->
+            <form id="enquiry-form" style="flex:1;">
+                <h2>Enquiry Form</h2>
+                <label for="enq-name">Full Name</label>
+                <input type="text" id="enq-name" style="width:100%; padding:8px; margin:5px 0 15px;" required>
+                
+                <label for="enq-email">Email Address</label>
+                <input type="email" id="enq-email" style="width:100%; padding:8px; margin:5px 0 15px;" required>
+                
+                <label for="enq-service">Service Requested</label>
+                <select id="enq-service" style="width:100%; padding:8px; margin:5px 0 15px;" required>
+                    <option value="">-- Select Option --</option>
+                    <option value="vr">VR Experience</option>
+                    <option value="birthday">Birthday Party Package</option>
+                    <option value="escape">Escape Room</option>
+                    <option value="sponsor">Sponsorship / Volunteering</option>
+                </select>
+
+                <label for="enq-date">Preferred Date</label>
+                <input type="date" id="enq-date" style="width:100%; padding:8px; margin:5px 0 15px;" required>
+
+                <button type="submit" class="btn" style="width:100%; border:none; cursor:pointer;">SUBMIT ENQUIRY</button>
+            </form>
+        </div>
+    </main>
+    <footer><p>© 2026 NEXT LEVEL Game Quest</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>

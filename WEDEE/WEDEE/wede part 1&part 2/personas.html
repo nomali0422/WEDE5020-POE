@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personas - NEXT LEVEL Game Quest</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .persona-container { display: flex; gap: 30px; flex-wrap: wrap; margin-top:20px; }
+        .persona-card { flex:1; min-width:300px; background:#1a0033; border:2px solid #00FFFF; border-radius:15px; padding:25px; text-align:center; }
+        .persona-card img { width:150px; height:150px; border-radius:50%; border:3px solid #00FFFF; object-fit:cover; }
+        .persona-info { text-align:left; background:#0a0a1a; padding:15px; border-radius:8px; margin-top:15px; }
+        .tag { display:inline-block; background:#330066; color:#00FFFF; padding:5px 10px; border-radius:20px; font-size:12px; margin:3px; border:1px solid #00FFFF; }
+    </style>
+</head>
+<body>
+    <header><img src="images/logo.png" alt="Logo"></header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="personas.html">User Personas</a>
+    </nav>
+    <main>
+        <h1>User Personas</h1>
+        <div class="persona-container">
+            <div class="persona-card">
+                <img src="images/thabo.jpg" alt="Thabo">
+                <h2 style="color:#00FFFF;">Thabo Nkosi</h2>
+                <p style="color:#a0a0ff;"><i>Hardcore Gamer - 19 Years</i></p>
+                <div><span class="tag">Student</span><span class="tag">Gamer</span></div>
+                <div class="persona-info">
+                    <p><b>Goals:</b> Affordable VR, avoid queues, check games.</p>
+                    <p><b>Frustrations:</b> Expensive gear, laggy internet.</p>
+                    <p><b>Quote:</b> "I just want to pull up with my boys and game without breaking the bank."</p>
+                </div>
+            </div>
+            <div class="persona-card">
+                <img src="images/mrs-dlamini.jpg" alt="Mrs Dlamini">
+                <h2 style="color:#00FFFF;">Mrs. Dlamini</h2>
+                <p style="color:#a0a0ff;"><i>Party Planner Mom - 38 Years</i></p>
+                <div><span class="tag">Parent</span><span class="tag">Teacher</span></div>
+                <div class="persona-info">
+                    <p><b>Goals:</b> Stress-free birthday, safe venue, all-inclusive.</p>
+                    <p><b>Frustrations:</b> No time, worried about safety, expensive venues.</p>
+                    <p><b>Quote:</b> "I need a venue that is safe, affordable and will handle everything."</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer><p>© 2026 NEXT LEVEL Game Quest</p></footer>
+</body>
+</html>
